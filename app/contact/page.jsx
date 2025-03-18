@@ -15,17 +15,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: '(+92) 3480588302'
+    description: '(+92) 3448805560'
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: 'karimrahat33@gmail.com'
+    description: 'kamrancareem04@gmail.com'
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: 'karimabad, Hunza, Gilgit'
+    description: 'Aliabad, Hunza, Gilgit'
   },
 ];
 
@@ -51,7 +51,7 @@ async function handleSubmit(e) {
             Accept: "application/json",
         },
         body: JSON.stringify({
-            access_key: "b9507a52-93ca-425e-827a-2b898dddac02",
+            access_key: "9b36e420-34ce-40dd-a47f-873b0b414a24",
             name: `${firstname} ${lastname}`,
             email: email,
             message: message,
@@ -115,7 +115,9 @@ const Contact = () => {
                     <SelectItem value="Data Analysis and Insights">Data Analysis and Insights</SelectItem>
                     <SelectItem value="Predictive Modeling">Predictive Modeling</SelectItem>
                     <SelectItem value="Data Cleaning and Preprocessing">Data Cleaning and Preprocessing</SelectItem>
-                    <SelectItem value="Automation of Processes">Automation of Processes</SelectItem>
+                    {/* <SelectItem value="Automation of Processes">Automation of Processes</SelectItem> */}
+                    <SelectItem value="LLMS Models">LLMs Models</SelectItem>
+                    <SelectItem value="NLP">NLP</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>

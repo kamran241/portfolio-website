@@ -1,53 +1,36 @@
 "use client";
 import { motion } from 'framer-motion';
 import React, { useState } from 'react';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
-
 import { BsArrowUpRight, BsGithub } from 'react-icons/bs';
-
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger
-} from '@/components/ui/tooltip';
-
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import Link from 'next/link';
 import Image from 'next/image';
 import WorkSliderBtn from '@/components/WorkSliderBtn';
+import { SiHuggingface, SiKaggle } from 'react-icons/si';
 
 const projects = [
   {
     num: "01",
-    category: "Machine Learning",
-    title: "E-physiotherpist",
-    description: `Developed a machine learning-based system for real-time physical therapy using video synchronization. Utilized Python, various libraries, and the SVM algorithm to analyze body movements and provide feedback to users, assisting in physical rehabilitation exercises.`,
-    stack: [{ name: "Python" }, { name: "Machine Learning" }, { name: "SVM" }],
+    category: "Machine  Learning",
+    title: "Machine learning model",
+    description: `Exploring the world of Machine Learning by building models for real-world applications. Worked on projects, leveraging data to create intelligent solutions.`,
+    stack: [{ name: "Python" }, { name: "Machine Learning" }],
     image: '/assets/work/d1.png',
     live: "",
-    github: "https://github.com/Rahat-karim",
+    SiKaggle: "https://www.kaggle.com/work",
+    
   },
   {
     num: "02",
-    category: "Data Analysis",
+    category: "Gen Ai",
     title: "Project 2",
-    description: `I developed a comprehensive dashboard for an online store, providing real-time insights into sales performance, customer behavior, and inventory management. This tool enables data-driven decision-making, optimizing marketing strategies and enhancing overall business performance.`,
-    stack: [{ name: "Tablueau" }, { name: "SQL" }, { name: "EDA" }],
-    image: '/assets/work/Dashboard.png',
-    live: "https://public.tableau.com/app/profile/rahat.karim1538/viz/Onlineretailsales_17261450674920/Dashboard1",
-    github: "https://github.com/Rahat-karim",
-  },
-  {
-    num: "03",
-    category: "Customer Segmentation for E-commerce",
-    title: "Project 3",
-    description: `Applied clustering algorithms to analyze customer behavior in an e-commerce platform. Segmented customers based on purchase patterns and demographics, enabling more effective, targeted marketing campaigns, which resulted in a significant boost in customer retention rates.`,
-    stack: [{ name: "Python" }, { name: "Scikit-learn" }, { name: "SQL" }],
+    description: `AI Engineer specializing in NLP and chatbot development. Skilled in integrating OpenAPI for seamless backend communication and leveraging Retrieval-Augmented Generation (RAG) to create contextually relevant chatbots. Committed to delivering innovative, data-driven solutions that enhance user interactions and drive meaningful impact`,
+    stack: [{ name: "Python" }, { name: "RAG" }, { name: "open API" }],
     image: '/assets/work/pca.png',
     live: "",
-    github: "https://github.com/Rahat-karim",
+    github: "https://github.com/kamran241",
   },
 ];
 
@@ -98,35 +81,39 @@ const Work = () => {
               {/* Buttons */}
               <div className='flex items-center gap-4'>
                 {/* live project button */}
-                <Link href={project.live}>
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className='w-[70px] h-[70px] rounded-full bg-white/20 flex justify-center items-center group'>
-                        <div className='text-white hover:text-accent transition duration-300 cursor-pointer'>
-                          <BsArrowUpRight className='text-white text-3xl group-hover:text-accent-DEAFULT' />
-                        </div>
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>Live project</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link>
+                {project.live && (
+                  <Link href={project.live}>
+                    <TooltipProvider delayDuration={100}>
+                      <Tooltip>
+                        <TooltipTrigger className='w-[70px] h-[70px] rounded-full bg-white/20 flex justify-center items-center group'>
+                          <div className='text-white hover:text-accent transition duration-300 cursor-pointer'>
+                            <BsArrowUpRight className='text-white text-3xl group-hover:text-accent-DEAFULT' />
+                          </div>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Live project</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </TooltipProvider>
+                  </Link>
+                )}
                 {/* github project button */}
-                <Link href={project.github}>
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className='w-[70px] h-[70px] rounded-full bg-white/20 flex justify-center items-center group'>
-                        <div className='text-white hover:text-accent transition duration-300 cursor-pointer'>
-                          <BsGithub className='text-white text-3xl group-hover:text-accent-DEAFULT' />
-                        </div>
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>Github</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link>
+                {project.github && (
+                  <Link href={project.github}>
+                    <TooltipProvider delayDuration={100}>
+                      <Tooltip>
+                        <TooltipTrigger className='w-[70px] h-[70px] rounded-full bg-white/20 flex justify-center items-center group'>
+                          <div className='text-white hover:text-accent transition duration-300 cursor-pointer'>
+                            <BsGithub className='text-white text-3xl group-hover:text-accent-DEAFULT' />
+                          </div>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Github</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </TooltipProvider>
+                  </Link>
+                )}
               </div>
             </div>
           </div>

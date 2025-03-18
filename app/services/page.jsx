@@ -22,11 +22,25 @@ const services = [
     description: 'Clean, preprocess, and structure raw data, ensuring that it is accurate, complete, and usable for analysis or modeling.',
     href: ""
   },
+  // {
+  //   num: '04',
+  //   title: 'Automation of Processes',
+  //   description: `
+  //   Developing data-driven algorithms and automated solutions, help organizations streamline workflows, optimize processes, and improve efficiency.`,
+  //   href: ""
+  // },
   {
     num: '04',
-    title: 'Automation of Processes',
+    title: 'LLMS ',
     description: `
-    Developing data-driven algorithms and automated solutions, help organizations streamline workflows, optimize processes, and improve efficiency.`,
+    I am skilled in using machine learning to predict customer behavior, market trends, and operational performance. This helps businesses prepare for challenges and opportunities. I am familiar with new technologies and can provide innovative solutions. My work improves customer satisfaction and business efficiency.`,
+    href: ""
+  },
+  {
+    num: '05',
+    title: 'NLP',
+    description: `
+   I am skilled in Natural Language Processing (NLP), focusing on creating chatbots and implementing text analysis techniques. I develop chatbots that understand and respond to user queries, enhancing customer interactions. Additionally, I work with text classification and sentiment analysis to extract insights from unstructured data. My expertise in NLP helps businesses improve communication and decision-making processes.`,
     href: ""
   },
 ]

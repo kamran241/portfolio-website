@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import Image from "next/image"
-
+import myImg from '@/assets/img.jpg'
 const Photo = () => {
     return (
         <div className="w-full h-full relative">
@@ -19,7 +19,7 @@ const Photo = () => {
                 >
                     <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
                         <Image
-                            src="/assets/img.png"
+                            src={myImg}
                             priority
                             quality={100}
                             fill

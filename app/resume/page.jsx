@@ -1,6 +1,6 @@
 "use client";
 
-import { SiTailwindcss, SiNextdotjs, SiNodedotjs, SiPython, SiR, SiTableau, SiPowerbi, SiMicrosoftexcel, SiMysql, SiTensorflow, SiJupyter } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiNodedotjs, SiPython, SiR, SiTableau, SiPowerbi, SiMicrosoftexcel, SiMysql, SiTensorflow, SiJupyter,SiPandas,SiKaggle,SiHuggingface } from "react-icons/si";
 import { motion } from "framer-motion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
@@ -9,51 +9,51 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 const about = {
   title: "About me",
   description: `
-  Experienced data scientist skilled in machine learning, data analysis, and statistical modeling, focused on developing data-driven solutions, uncovering actionable insights, and optimizing processes through predictive analytics and automation.`,
+Aspiring AI engineer eager to explore and learn about various data types and emerging technologies. I am passionate about developing AI-driven solutions and uncovering insights that can drive meaningful change. With a foundational understanding of machine learning and Gen ai, I am committed to continuous learning and growth in the field. My goal is to leverage AI to optimize processes and enhance efficiency, contributing to innovative projects and collaborative teams..`,
   info: [
-    { fieldName: "Name", fieldValue: "Rahat Karim" },
-    { fieldName: "Phone", fieldValue: "(+92) 3480588302" },
-    { fieldName: "Experience", fieldValue: "3+ years" },
-    { fieldName: "Skype", fieldValue: "rahat.karim" },
+    { fieldName: "Name", fieldValue: "kamran akmal" },
+    { fieldName: "Phone", fieldValue: "(+92) 3448805560" },
+    { fieldName: "Experience", fieldValue: "3+ month" },
+    // { fieldName: "Skype", fieldValue: "rahat.karim" },
     { fieldName: "Nationality", fieldValue: "Pakistani" },
-    { fieldName: "Email", fieldValue: "karimrahat33@gmail.com" },
+    { fieldName: "Email", fieldValue: "kamrancareem04@gmail.com" },
     { fieldName: "Freelance", fieldValue: "Available" },
-    { fieldName: "Languages", fieldValue: "English, Urdu, Hindi" },
+    { fieldName: "Languages", fieldValue: "English, Urdu, Hindi,burushki" },
   ],
 };
 
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
-  description: `I have extensive experience in developing data-driven solutions, utilizing advanced machine learning techniques, data visualization, and predictive analytics to solve complex business problems. I'm proficient in tools like Python, R, Tableau, and Power BI, and focus on leveraging these technologies to extract meaningful insights and optimize decision-making processes.`,
+  description: `I have experience as a Junior AI Engineer at AI Pearlz Software House, where I developed data-driven solutions using advanced machine learning techniques and created chatbots to enhance user interactions. Proficient in Python, I am also familiar with Docker and static web development. My role involved leveraging tools like Python to extract meaningful insights and optimize decision-making processes. I focused on solving complex business problems through predictive analytics, data visualization, and creating interactive chatbots, enhancing operational efficiency and driving innovation.`,
   items: [
     {
-      company: "NorthNine",
-      position: "Senior Data Scientist",
+      company: "Ai Pearlz Software House",
+      position: "Juniour Ai engineer",
       duration: "2023 - present",
     },
-    {
-      company: "Hunza webX",
-      position: "Data Analyst",
-      duration: "2021 - 2023",
-    },
+    // {
+    //   company: "Hunza webX",
+    //   position: "Data Analyst",
+    //   duration: "2021 - 2023",
+    // },
   ],
 };
 
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
-  description: `I hold a Bachelor of Science in Computer Science (BSCS) from Iqra University and have further specialized in Data Science and AI from NUST. This educational background has equipped me with a strong foundation in both computer science and advanced data-driven technologies.`,
+  description: `I completed my intermediate education from Degree College Aliabad, Hunza, securing an A grade. This educational background has equipped me with a strong foundation in both computer science and advanced data-driven technologies.`,
   items: [
+    // {
+    //   institution: "Iqra University",
+    //   degree: "Bachelor's Computer Science",
+    //   duration: "2020 - 2023",
+    // },
     {
-      institution: "Iqra University",
-      degree: "Bachelor's Computer Science",
-      duration: "2020 - 2023",
-    },
-    {
-      institution: "NUST",
-      degree: "Data Science and AI",
-      duration: "2024 - PRESENT",
+      institution: "Degree college Aliabad",
+      degree: "Computer Science",
+      duration: "2024",
     },
   ],
 };
@@ -64,11 +64,11 @@ const skills = {
   Experienced data scientist skilled in Python, R, and SQL, with a focus on developing data-driven models, predictive analytics, and visually compelling data visualizations using tools like Tableau, Power BI, and Excel. Specializes in extracting actionable insights, optimizing decision-making processes, and delivering impactful solutions.`,
   skillList: [
     { icon: <SiPython />, name: "Python" },
-    { icon: <SiR />, name: "R" },
-    { icon: <SiTableau />, name: "Tableau" },
-    { icon: <SiPowerbi />, name: "Power BI" },
+    // { icon: <SiR />, name: "c" },
+    { icon: <SiKaggle />, name: "Tableau" },
+    { icon: <SiHuggingface />, name: "HuggIng Face " },
     { icon: <SiMicrosoftexcel />, name: "Excel" },
-    { icon: <SiMysql />, name: "SQL" },
+    { icon: <SiPandas />, name: "Pandas" },
     { icon: <SiTensorflow />, name: "TensorFlow" },
     { icon: <SiJupyter />, name: "Jupyter Notebook" },
   ],
