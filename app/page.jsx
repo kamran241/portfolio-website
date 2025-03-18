@@ -12,7 +12,7 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-center xl:pt-8 xl:pb-24">
           {/* text */}
           <div className='text-center xl:text-left order-2 xl:order-none'>
-            <span className='text-xl '>Kamran Karim</span>
+            <span className='text-xl '>Ai Engineer</span>
             <h1 className='h1 mb-6 mt-5'>Hello I'm <span className='text-accent-DEAFULT'>KAMRAN</span>
             </h1>
             <p className='max-w-[500px] mx-auto xl:mx-0 text-white/80'>As an AI engineer, I specialize in developing data-driven solutions with expertise in a wide range of data analysis tools, programming languages, and machine learning techniques. I am proficient in cutting-edge AI technologies, including large language models (LLMs), generative AI, and natural language processing (NLP), enabling me to tackle complex challenges effectively.</p>
