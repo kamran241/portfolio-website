@@ -65,7 +65,11 @@ const skills = {
   skillList: [
     { icon: <SiPython />, name: "Python" },
     // { icon: <SiR />, name: "c" },
+<<<<<<< HEAD
     { icon: <SiKaggle />, name: "Tableau" },
+=======
+    { icon: <SiKaggle />, name: "Kaggle" },
+>>>>>>> fe5d265 (update code)
     { icon: <SiHuggingface />, name: "HuggIng Face " },
     { icon: <SiMicrosoftexcel />, name: "Excel" },
     { icon: <SiPandas />, name: "Pandas" },
