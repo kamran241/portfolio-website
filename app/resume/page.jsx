@@ -64,19 +64,16 @@ const skills = {
   Experienced data scientist skilled in Python, R, and SQL, with a focus on developing data-driven models, predictive analytics, and visually compelling data visualizations using tools like Tableau, Power BI, and Excel. Specializes in extracting actionable insights, optimizing decision-making processes, and delivering impactful solutions.`,
   skillList: [
     { icon: <SiPython />, name: "Python" },
-    // { icon: <SiR />, name: "c" },
-<<<<<<< HEAD
-    { icon: <SiKaggle />, name: "Tableau" },
-=======
+    { icon: <SiKaggle />, name: "Tableau" }, // Keep this if Tableau is needed
     { icon: <SiKaggle />, name: "Kaggle" },
->>>>>>> fe5d265 (update code)
-    { icon: <SiHuggingface />, name: "HuggIng Face " },
+    { icon: <SiHuggingface />, name: "Hugging Face" },
     { icon: <SiMicrosoftexcel />, name: "Excel" },
     { icon: <SiPandas />, name: "Pandas" },
     { icon: <SiTensorflow />, name: "TensorFlow" },
     { icon: <SiJupyter />, name: "Jupyter Notebook" },
   ],
 };
+
 
 const Resume = () => {
   return (
