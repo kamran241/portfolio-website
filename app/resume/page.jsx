@@ -61,7 +61,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description: `
-  Experienced data scientist skilled in Python, R, and SQL, with a focus on developing data-driven models, predictive analytics, and visually compelling data visualizations using tools like Tableau, Power BI, and Excel. Specializes in extracting actionable insights, optimizing decision-making processes, and delivering impactful solutions.`,
+  Experienced AI Engineer proficient in machine learning, deep learning, generative AI, and natural language processing. The professional specializes in the development of smart systems and algorithm optimization and innovative AI solution creation. A professional who experts the use of advanced technologies for process automation along with improved decision systems. The company remains focused on developing essential AI applications which effectively address challenging issues.`,
   skillList: [
     { icon: <SiPython />, name: "Python" },
     // { icon: <SiKaggle />, name: "Tableau" }, // Keep this if Tableau is needed
