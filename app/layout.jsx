@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
+        <div className="flex justify-center h-10 bg-[#ff6000] items-center mt-10">Made with ❤ by Kamran Karim in Hunza</div>
       </body>
     </html>
   );
