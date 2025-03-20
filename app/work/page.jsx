@@ -24,13 +24,13 @@ const projects = [
   },
   {
     num: "02",
-    category: "Gen Ai",
+    category: "Generative AI",
     title: "Project 2",
     description: `AI Engineer specializing in NLP and chatbot development. Skilled in integrating OpenAPI for seamless backend communication and leveraging Retrieval-Augmented Generation (RAG) to create contextually relevant chatbots. Committed to delivering innovative, data-driven solutions that enhance user interactions and drive meaningful impact`,
     stack: [{ name: "Python" }, { name: "RAG" }, { name: "open API" }],
     image: '/assets/work/pca.png',
     live: "",
-    github: "https://github.com/kamran241",
+    // github: "https://github.com/kamran241",
   },
 ];
 
