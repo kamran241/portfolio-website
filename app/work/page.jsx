@@ -8,7 +8,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 import Link from 'next/link';
 import Image from 'next/image';
 import WorkSliderBtn from '@/components/WorkSliderBtn';
-import { SiHuggingface, SiKaggle } from 'react-icons/si';
+import { SiHuggingface, SiKaggle , SiGithub} from 'react-icons/si';
 
 const projects = [
   {
@@ -20,6 +20,7 @@ const projects = [
     image: '/assets/work/d1.png',
     live: "",
     SiKaggle: "https://www.kaggle.com/work",
+    SiGithub: "https://github.com/kamran241",
     
   },
   {
@@ -27,7 +28,7 @@ const projects = [
     category: "Generative AI",
     title: "Project 2",
     description: `AI Engineer specializing in NLP and chatbot development. Skilled in integrating OpenAPI for seamless backend communication and leveraging Retrieval-Augmented Generation (RAG) to create contextually relevant chatbots. Committed to delivering innovative, data-driven solutions that enhance user interactions and drive meaningful impact`,
-    stack: [{ name: "Python" }, { name: "RAG" }, { name: "open API" }],
+    stack: [{ name: "Python" }, { name: "RAG" }, { name: "open API" },{ name: "Hugging Face" }],
     image: '/assets/work/pca.png',
     live: "",
     // github: "https://github.com/kamran241",
