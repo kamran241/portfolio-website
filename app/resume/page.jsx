@@ -30,7 +30,7 @@ const experience = {
     {
       company: "Ai Pearlz Software House",
       position: "Juniour Ai engineer",
-      duration: "2023 - present",
+      duration: "FEB 2025 - MAR 2025",
     },
     // {
     //   company: "Hunza webX",
