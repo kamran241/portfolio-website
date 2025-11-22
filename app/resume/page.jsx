@@ -1,6 +1,6 @@
 "use client";
 
-import { SiTailwindcss, SiNextdotjs, SiNodedotjs, SiPython, SiR, SiTableau, SiPowerbi, SiMicrosoftexcel, SiMysql, SiTensorflow, SiJupyter,SiPandas,SiKaggle,SiHuggingface } from "react-icons/si";
+import { SiPython,SiDjango, SiMicrosoftexcel,SiNumpy, SiMysql,SiTensorflow,SiScikitlearn,SiGooglecolab,SiJupyter,SiPandas,SiKaggle,SiHuggingface, } from "react-icons/si";
 import { motion } from "framer-motion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
@@ -13,47 +13,50 @@ Aspiring AI engineer eager to explore and learn about various data types and eme
   info: [
     { fieldName: "Name", fieldValue: "kamran akmal" },
     { fieldName: "Phone", fieldValue: "(+92) 3448805560" },
-    { fieldName: "Experience", fieldValue: "3+ month" },
-    // { fieldName: "Skype", fieldValue: "rahat.karim" },
-    { fieldName: "Nationality", fieldValue: "Pakistani" },
+    { fieldName: "Experience", fieldValue: "9+ month" },
+    // { fieldName: "Linkdein", fieldValue: "https://www.linkedin.com/in/kamran-akmal/" },
+    // { fieldName: "Nationality", fieldValue: "Pakistani" },
     { fieldName: "Email", fieldValue: "kamrancareem04@gmail.com" },
+    { fieldName: "Nationality", fieldValue: "Pakistani" },
     { fieldName: "Freelance", fieldValue: "Available" },
-    { fieldName: "Languages", fieldValue: "English, Urdu, Hindi,burushki" },
+    { fieldName: "Languages", fieldValue: "English, Urdu" },
+    { fieldName: "Linkdein", fieldValue: "https://www.linkedin.com/in/kamran-akmal/" },
   ],
 };
 
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
-  description: `I have experience as a Junior AI Engineer at AI Pearlz Software House, where I developed data-driven solutions using advanced machine learning techniques and created chatbots to enhance user interactions. Proficient in Python, I am also familiar with Docker and static web development. My role involved leveraging tools like Python to extract meaningful insights and optimize decision-making processes. I focused on solving complex business problems through predictive analytics, data visualization, and creating interactive chatbots, enhancing operational efficiency and driving innovation.`,
+  description: `I have hands-on experience as a  AI/ML Engineer through roles at AI Pearlz Software House and Bit Logicx. At AI Pearlz, I developed data-driven solutions using machine learning and built interactive chatbots to enhance user engagement. I applied Python for predictive analytics, data visualization, and decision optimization, while also working with Docker and static web technologies. At Bit Logicx, I focused on deep learning model development and fine-tuning using PyTorch and TensorFlow, evaluating performance through metrics like accuracy, precision, recall, and F1-score. My contributions spanned real-world applications such as image classification and model deployment, helping streamline workflows and drive innovation across teams.`,
   items: [
     {
       company: "Ai Pearlz Software House",
-      position: "Juniour Ai engineer",
+      position: "Junior Ai engineer",
       duration: "FEB 2025 - MAR 2025",
     },
-    // {
-    //   company: "Hunza webX",
-    //   position: "Data Analyst",
-    //   duration: "2021 - 2023",
-    // },
+    {
+      company: "Bit Logicx",
+      position: "Junior ML engineer",
+      duration: "MAY 2025 - PRESENT",
+    },
   ],
 };
 
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
-  description: `I completed my intermediate education from Degree College Aliabad, Hunza, securing an A grade. This educational background has equipped me with a strong foundation in both computer science and advanced data-driven technologies.`,
+  description: `I completed my intermediate education at Degree College Aliabad, Hunza, graduating with an A grade. This academic foundation provided me with a strong grasp of core computer science principles and sparked my passion for data-driven technologies and intelligent systems. Currently, I am pursuing a Bachelor's degree in Computer Science at Virtual University of Pakistan, where I am deepening my expertise in machine learning, software engineering, and algorithm design. My academic journey reflects a commitment to continuous learning and innovation, preparing me to tackle real-world challenges through AI-powered solutions and collaborative development.`,
   items: [
-    // {
-    //   institution: "Iqra University",
-    //   degree: "Bachelor's Computer Science",
-    //   duration: "2020 - 2023",
-    // },
+
     {
       institution: "Degree college Aliabad",
       degree: "Computer Science",
-      duration: "2024",
+      duration: "2022 - 2024",
+    },
+   {
+      institution: "Virtual University of Pakistan",
+      degree: "Bachelor's Computer Science",
+      duration: "2025 - 2029",
     },
   ],
 };
@@ -64,13 +67,17 @@ const skills = {
   Experienced AI Engineer proficient in machine learning, deep learning, generative AI, and natural language processing. The professional specializes in the development of smart systems and algorithm optimization and innovative AI solution creation. A professional who experts the use of advanced technologies for process automation along with improved decision systems. The company remains focused on developing essential AI applications which effectively address challenging issues.`,
   skillList: [
     { icon: <SiPython />, name: "Python" },
-    // { icon: <SiKaggle />, name: "Tableau" }, // Keep this if Tableau is needed
+    { icon: <SiMysql />, name: "MySQL" }, 
     { icon: <SiKaggle />, name: "Kaggle" },
     { icon: <SiHuggingface />, name: "Hugging Face" },
     { icon: <SiMicrosoftexcel />, name: "Excel" },
     { icon: <SiPandas />, name: "Pandas" },
+    { icon: <SiDjango />, name: "Django" },
     { icon: <SiTensorflow />, name: "TensorFlow" },
     { icon: <SiJupyter />, name: "Jupyter Notebook" },
+    { icon: <SiNumpy />, name: "NumPy" },
+    { icon: <SiScikitlearn />, name: "Scikit-learn" },
+    { icon: <SiGooglecolab />, name: "Google Colab" },
   ],
 };
 
